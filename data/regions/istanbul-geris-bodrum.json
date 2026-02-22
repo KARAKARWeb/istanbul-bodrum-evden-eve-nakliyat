@@ -1,0 +1,38 @@
+{
+  "id": "istanbul-geris-bodrum",
+  "title": "İstanbul'dan Geriş, Bodrum'a Ev Taşıma",
+  "slug": "istanbul-geris-bodrum",
+  "region": "Geriş",
+  "city": "Bodrum",
+  "province": "Muğla",
+  "sourceCity": "İstanbul",
+  "targetCity": "Geriş",
+  "distance": 648,
+  "duration": 7.8,
+  "priceMin": 14796,
+  "active": true,
+  "status": "active",
+  "metaTitle": "İstanbul Geriş Bodrum Evden Eve Nakliyat | Profesyonel",
+  "metaDescription": "İstanbul'dan Muğla Bodrum Geriş'e profesyonel evden eve nakliyat. Sigortalı, güvenilir taşıma hizmeti.",
+  "content": "<h2>Geriş'e Profesyonel Evden Eve Nakliyat</h2>\n\n<p>732 kilometre mesafedeki <strong>Muğla ili Bodrum ilçesi Geriş mahallesine</strong> taşınıyorsunuz değil mi? Ücretsiz ekspertiz sunuyoruz. Mobilyalar ölçülüyor. Hassas eşyalar belirleniyor. <em>Paket gereksinimi</em> hesaplanıyor. Geriş'in sokak yapısına göre araç seçiliyor. Köşeler <u>koruyucu</u> ile kaplanıyor. Sökülen parçalar etiketli torbada.</p>\n\n<h3>Asansörlü Taşıma Geriş Rotasında</h3>\n\n<p>İstanbul-Geriş hattında <strong>asansörlü nakil</strong> hizmeti var. Sözleşmede maliyetler ayrı ayrı. Hamallık belli. Asansör net. Paketleme açık. Sigorta önceden hazır. Eşyalar köpük ve streçle <em>üç kat</em> korunuyor. Geriş'teki evde plana göre yerleştirme var. Montaj bitince <u>denetim</u> var.</p>\n\n<h2>Ofis Taşımacılığı Geriş Şubelerine</h2>\n\n<p>İstanbul'daki şirketin <strong>Bodrum Geriş ofisine geçişi</strong> yönetiliyor. Teknik cihaz sökümü uzmanla yapılıyor. Kablolar fotoğraflanıyor. Dosyalar numaralanıyor. Geriş'teki ofiste düzen önceden hazır. Akşam yükleme başlıyor. İş durmadan devam ediyor. Kurulum sonrası test var.</p>\n\n<p>İstanbul'dan Muğla Bodrum Geriş'e nakil sürecinde yanınızdayız.</p>",
+  "faqs": [],
+  "reviews": [
+    {
+      "id": "20db241a-c30e-4576-96b2-67864f5b8100",
+      "author": "Bülent Ş.",
+      "rating": 5,
+      "text": "Bodrum'daki yeni evimize sorunsuz yerleştik.",
+      "date": "2026-01-03",
+      "verified": true
+    },
+    {
+      "id": "06d8b5cc-7dfb-4894-9eaa-fa0f933368e8",
+      "author": "Sevgi Ç.",
+      "rating": 5,
+      "text": "Asansörlü taşıma hizmeti çok işimize yaradı.",
+      "date": "2026-01-17",
+      "verified": true
+    }
+  ],
+  "updatedAt": "2026-02-22T21:34:37.626Z"
+}

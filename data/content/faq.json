@@ -1,5 +1,46 @@
 {
   "title": "Sıkça Sorulan Sorular",
-  "description": "<p>Sık sorulan sorular bölümünde; ev taşıma fiyatı, sigorta poliçesi, sözleşme maddeleri ve asansörlü ev taşıma şartlarını kısa ve net biçimde açıklıyoruz.</p>",
-  "faqs": []
+  "description": "<p>SSS bölümünde şehirlerarası evden eve nakliyat detaylarını bulursunuz. Ücret, sigorta, asansör ve ekspertiz soruları tek sayfada hızlı netleşir.</p>",
+  "faqs": [
+    {
+      "q": "İstanbul’dan Bodrum’a taşınırken ücretsiz ekspertiz nasıl işliyor?",
+      "a": "Ekspertizi randevuyla planlarız. Oda sayısı, paketleme seviyesi, asansör ihtiyacı ve park mesafesi ölçülür. Rapor aynı gün PDF gelir; evden eve nakliyat ücretleri, hamallık bedeli ve ek kalemler net görünür."
+    },
+    {
+      "q": "Evden eve nakliyat fiyatı hangi unsurlarla değişir?",
+      "a": "Fiyatı; eşya hacmi, kat durumu, park mesafesi ve rota belirler. Paketleme seviyesi ile asansör kurulumu ayrı kalemdir. Ücretsiz ekspertiz sonrası ev taşıma ücreti netleşir; sözleşmeye yazılır."
+    },
+    {
+      "q": "Şehirlerarası evden eve nakliyat sırasında eşyalarım araç içinde nasıl sabitlenir?",
+      "a": "Araç içi kaydırmaz zemin serilir. Beyaz eşyalar köşe takozu ve kayışla sabitlenir. Cam tablalar çift oluklu koliye alınır. Yük denge kontrolü her molada yapılır."
+    },
+    {
+      "q": "Asansörlü ev taşıma ne zaman gerekli olur?",
+      "a": "Asansör, dar merdiven ve büyük mobilyada avantaj sağlar. Zemin eğimi, balkon açıklığı ve kurulum mesafesi ölçülür. Güvenlik şeridi çekilir. Kurulum fotoğrafı paylaşılır; süreç kayda geçer."
+    },
+    {
+      "q": "Sigortalı ev taşıma poliçesi neleri kapsar?",
+      "a": "Poliçede teminat, muafiyet ve kapsam maddeleri yer alır. Değer listesine elektronik, tablo ve antika ayrı yazılır. Paketleme öncesi fotoğraf alınır. Poliçe numarası paylaşılır; teslimde tutanak tutulur."
+    },
+    {
+      "q": "Sözleşmeli ev taşıma yaparsak hangi maddeler yazılır?",
+      "a": "Sözleşmeye tarih, araç tipi, paketleme detayları ve ücret kalemleri yazılır. Asansör, depolama veya ekstra montaj ayrı başlıktır. Erteleme ve iptal şartı netleştirilir. Her iki taraf aynı metni imzalar."
+    },
+    {
+      "q": "Eşya depolama hizmetinde nem, güvenlik ve erişim nasıl yönetilir?",
+      "a": "Depo nem kontrollüdür, girişler kayıt altındadır. Raflı alanlarda oda kodu ve koli numarasıyla düzen kurulur. İstediğiniz kutu için fotoğraflı liste paylaşırız. Süre bitince taşıma planı yeniden yapılır."
+    },
+    {
+      "q": "Ofis taşımacılığı sırasında iş kesintisini azaltmak için hangi sıra izlenir?",
+      "a": "Önce arşiv sınıflanır, sonra IT cihazları numaralanır. Kritik ekipman ayrı kasalara alınır. Taşıma hafta sonuna planlanır. Kurulumda masa, sandalye ve ağ cihazları aynı gün çalışır hale getirilir."
+    },
+    {
+      "q": "Ev taşıma firmaları ile görüşürken hangi soruları sormalıyım?",
+      "a": "Firmadan ekspertiz raporu ve kontrol listesi isteyin. Asansör kurulumu için ölçüm planını sorun. Sigorta poliçesi numarasını talep edin. Bu belgeler, ev taşıma fiyatları ile hizmet kalitesini aynı yerde kıyaslatır."
+    },
+    {
+      "q": "Taşınma günü gecikme yaşanırsa süreç nasıl ilerler?",
+      "a": "Gecikmede saha sorumlusu tek kanaldır, sizi arar. Rota ve mola planı güncellenir. Bekleme durumu sözleşmede yazıyorsa sürpriz çıkmaz. Amaç, teslimi güvenli tamamlamaktır; tartışma büyütülmez."
+    }
+  ]
 }

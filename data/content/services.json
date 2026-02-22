@@ -1,31 +1,31 @@
 {
   "title": "Hizmetlerimiz",
-  "description": "<p>Taşıma ihtiyaçlarınıza göre paketleme, sözleşme, sigorta ve asansörlü kurulum seçeneklerini aynı ekip disiplininde, tek planla netleştirip titizlikle birleştiriyoruz.</p>",
+  "description": "<p>Taşınma sürecini tek noktadan yönetiyor, paketlemeden kuruluma kadar her adımı ölçülü planla ilerletiyor, sürpriz masraf bırakmıyor, net zaman çizelgesi sunuyoruz.</p>",
   "services": [
     {
       "title": "Evden Eve Nakliyat",
-      "description": "<p>Planlı paketleme, numaralı koliler ve güvenli teslim akışı kuruyoruz.</p>"
+      "description": "<p>Kutular etiketlenir, mobilya sökülür, aynı gün teslim edilir.</p>"
     },
     {
       "title": "Sözleşmeli Evden Eve Nakliyat",
-      "description": "<p>Tarih, ücret ve iş kapsamı yazılı sözleşmede açıkça netleşir.</p>"
+      "description": "<p>Şartlar sözleşmeye yazılır, tarih ve ücret kesin biçimde netleşir.</p>"
     },
     {
       "title": "Sigortalı Evden Eve Nakliyat",
-      "description": "<p>Sigorta poliçesiyle olası zararları resmi güvenceye hızlıca alırız.</p>"
+      "description": "<p>Sigorta poliçesi kesilir, olası hasar bedeli eksiksiz karşılanır.</p>"
     },
     {
       "title": "Asansörlü Evden Eve Nakliyat",
-      "description": "<p>Dış cephe asansörüyle hızlı indirme ve hasarsız çıkarma sağlarız.</p>"
+      "description": "<p>Dış cephe asansörü kurulur, dar merdiven riski azalır.</p>"
     },
     {
       "title": "Ofis Taşımacılığı",
-      "description": "<p>Arşiv ve cihazları etiketler, operasyonu planlı biçimde kesintisiz taşırız.</p>"
+      "description": "<p>Arşiv sınıflanır, IT cihazları numaralanır, çalışma günü aksatılmaz.</p>"
     },
     {
       "title": "Eşya Depolama",
-      "description": "<p>Nem takibi yapılan alanda kilitli, düzenli eşya depolama sunarız.</p>"
+      "description": "<p>Nem kontrollü depoda, raflı alanlarda güvenli saklama sağlanır.</p>"
     }
   ],
-  "footer": "<p>Her işte önce keşif yapar, hamallık bedeli ve malzeme ihtiyacını kalem kalem çıkarırız. Rulo ambalaj, köşe koruyucu ve battaniye kaplama sahaya eksiksiz iner. Şehiriçi evden eve nakliyat ile başlayan süreç, şehirlerarası evden eve nakliyat etaplarında bile aynı kontrol listesiyle ilerler; araç içi sabitleme kayışları da rutinin vazgeçilmez parçasıdır.</p>"
+  "footer": "<p>İstanbul çıkışlı Bodrum teslimli işlerde önce ücretsiz ekspertiz planlıyoruz. Paketlemede rulo ambalaj, köpük köşe ve çift kat streç film kullanıyoruz. Hamallık bedeli, kat durumu ve park mesafesi baştan hesaplanır. Kırılacaklar ayrı kolilenir, askılı tekstil özel gardırop kutusunda taşınır. Böylece nakliyat günü tartışma değil, düzen konuşur; siz sadece anahtarı teslim edersiniz.</p>"
 }

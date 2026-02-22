@@ -1,14 +1,14 @@
 {
-  "title": "İstanbul Kuşadası Rota Bilgileri",
-  "description": "Haritadaki rota, İstanbul çıkışını ve Kuşadası varışını gösterir; trafik durumuna göre ortalama sürüş süresini ve mola planını bu veriye göre netleştiriyoruz.\n",
+  "title": "İstanbul'dan Bodrum'a Rota Bilgileri",
+  "description": "Harita, İstanbul çıkışlı Bodrum varışlı rotayı gösterir. Ortalama sürüş süresi, uygun molalarla planlanır; yükleme bitince teslim saati netleşir.",
   "originCoords": "KOZCUOĞLU Eşya Depolama ve Nakliyat Hizmetleri",
-  "destinationCoords": "Kuşadası",
+  "destinationCoords": "Bodrum",
   "fromCity": "İstanbul",
-  "toCity": "Kuşadası",
-  "distance": 538,
-  "duration": 6,
+  "toCity": "Bodrum",
+  "distance": 691,
+  "duration": 7.5,
   "basePrice": 1500,
   "sourceCity": "İstanbul",
-  "targetCity": "Kuşadası",
-  "priceMin": 14200
+  "targetCity": "Bodrum",
+  "priceMin": 14800
 }

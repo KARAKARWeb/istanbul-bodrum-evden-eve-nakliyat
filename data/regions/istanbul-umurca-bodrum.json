@@ -1,0 +1,38 @@
+{
+  "id": "istanbul-umurca-bodrum",
+  "title": "İstanbul'dan Umurca, Bodrum'a Ev Taşıma",
+  "slug": "istanbul-umurca-bodrum",
+  "region": "Umurca",
+  "city": "Bodrum",
+  "province": "Muğla",
+  "sourceCity": "İstanbul",
+  "targetCity": "Umurca",
+  "distance": 701,
+  "duration": 7.7,
+  "priceMin": 14800,
+  "active": true,
+  "status": "active",
+  "metaTitle": "İstanbul Umurca Bodrum Evden Eve Nakliyat | Garantili",
+  "metaDescription": "İstanbul'dan Muğla Bodrum Umurca'ya profesyonel evden eve nakliyat. Garantili, sigortalı taşıma hizmeti.",
+  "content": "<h2>Umurca'ya Garantili Evden Eve Nakliyat</h2>\n\n<p>730 km mesafedeki <strong>Muğla ili Bodrum ilçesi Umurca mahallesine</strong> taşınma planınız var mı? Ücretsiz keşif ile başlıyoruz. Mobilyalar ölçülüyor. Hassas ürünler listeleniyor. <em>Ambalaj ihtiyacı</em> belirleniyor. Umurca'nın yol yapısına göre taşıt seçiliyor. Kenarlar <u>filmle</u> korunuyor. Parçalar etiketli torbada tutuluyor.</p>\n\n<h3>Sözleşmeli Taşıma Umurca Hattında</h3>\n\n<p>İstanbul-Umurca rotasında <strong>sözleşmeli nakil</strong> sunuyoruz. Anlaşmada maliyetler ayrı yazılı. Hamallık belli. Asansör net. Paketleme açık. Sigorta önceden verilir. Eşyalar köpük ve streçle <em>çift kat</em> korunuyor. Umurca'daki evde plana göre yerleştirme var. Montaj bitince <u>kontrol</u> yapılıyor.</p>\n\n<h2>Kurumsal Nakil Umurca Ofislerine</h2>\n\n<p>İstanbul'daki şirketin <strong>Bodrum Umurca şubesine taşınması</strong> yönetiliyor. Teknik cihazlar uzmanla sökülüyor. Kablolar kaydediliyor. Dosyalar sıralanıyor. Umurca'daki ofiste düzen hazırlanıyor. Akşam yükleme oluyor. İş durmuyor. Kurulum sonrası test var.</p>\n\n<p>İstanbul'dan Muğla Bodrum Umurca'ya nakil sürecinde yanınızdayız.</p>",
+  "faqs": [],
+  "reviews": [
+    {
+      "id": "3dfa5d84-b9a0-4f54-aa59-7d7ee5bf1774",
+      "author": "Dursun C.",
+      "rating": 4,
+      "text": "Eşyalarımız özenle paketlendi ve taşındı.",
+      "date": "2025-10-10",
+      "verified": true
+    },
+    {
+      "id": "0b5c69a4-4195-482c-be19-af86aab8cdb4",
+      "author": "Nehir R.",
+      "rating": 5,
+      "text": "Ekip işini biliyor. Her şey planlandığı gibi gitti.",
+      "date": "2025-10-26",
+      "verified": true
+    }
+  ],
+  "updatedAt": "2026-02-22T21:34:37.713Z"
+}

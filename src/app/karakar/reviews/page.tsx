@@ -113,8 +113,6 @@ export default function ReviewsPage() {
     }
   };
 
-  if (regions.length === 0) return <div className="p-8">Yükleniyor...</div>;
-
   const selectedRegionData = regions.find(r => r.id === selectedRegion);
 
   return (
