@@ -63,7 +63,7 @@ export async function generateWebSiteSchema() {
   };
 }
 
-export async function generateHomePageSchema(routeInfo?: any) {
+export async function generateHomePageSchema(routeInfo?: any, faqData?: any) {
   const contact = await getContactSettings();
   const site = await getSiteSettings();
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (site.domain ? `https://${site.domain}` : '');
@@ -72,6 +72,35 @@ export async function generateHomePageSchema(routeInfo?: any) {
     return {};
   }
   const addressParsed = parseAddress(contact.address);
+  
+  // FAQ Schema - Ana sayfadaki gerçek FAQ verilerini kullan
+  const faqSchemaEntities = faqData?.faqs?.length > 0 
+    ? faqData.faqs.map((faq: any) => ({
+        '@type': 'Question',
+        name: faq.q,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.a,
+        },
+      }))
+    : [
+        {
+          '@type': 'Question',
+          name: 'Nakliyat ücreti nasıl hesaplanır?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Nakliyat ücreti ev büyüklüğü, mesafe, asansör durumu ve eşya miktarına göre belirlenir.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Sigorta kapsamı nedir?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Tüm eşyalarınız taşıma sırasında sigorta kapsamındadır. Herhangi bir hasar durumunda tazminat ödenir.',
+          },
+        },
+      ];
   
   return {
     '@context': 'https://schema.org',
@@ -199,40 +228,7 @@ export async function generateHomePageSchema(routeInfo?: any) {
       {
         '@type': 'FAQPage',
         '@id': `${baseUrl}/#faqpage`,
-        mainEntity: [
-          {
-            '@type': 'Question',
-            name: 'Nakliyat ücreti nasıl hesaplanır?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Nakliyat ücreti ev büyüklüğü, mesafe, asansör durumu ve eşya miktarına göre belirlenir.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Sigorta kapsamı nedir?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Tüm eşyalarınız taşıma sırasında sigorta kapsamındadır. Herhangi bir hasar durumunda tazminat ödenir.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Ne kadar önceden rezervasyon yapmalıyım?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'En az 3-5 gün önceden rezervasyon yapmanızı öneriyoruz. Yoğun dönemlerde daha erken rezervasyon gerekebilir.',
-            },
-          },
-          {
-            '@type': 'Question',
-            name: 'Paketleme hizmeti veriyor musunuz?',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: 'Evet, profesyonel paketleme hizmeti sunuyoruz. Özel paketleme malzemeleri ile eşyalarınızı koruyoruz.',
-            },
-          },
-        ],
+        mainEntity: faqSchemaEntities,
       },
     ],
   };

@@ -28,7 +28,6 @@ export const revalidate = 3600;
 
 export async function generateMetadata(): Promise<Metadata> {
   const pageSEO = await getPageSEO('home');
-  const schema = generateHomePageSchema();
   
   return {
     title: pageSEO.title,
@@ -48,9 +47,6 @@ export async function generateMetadata(): Promise<Metadata> {
       card: 'summary_large_image',
       title: pageSEO.title,
       description: pageSEO.description,
-    },
-    other: {
-      'script:ld+json': JSON.stringify(schema),
     },
   };
 }
@@ -165,13 +161,15 @@ export default async function Home() {
   const routeInfo = await getRouteInfo();
   const siteSettings = await getSiteSettings();
   const contactSettings = await getContactSettings();
-  const schema = await generateHomePageSchema(routeInfo);
   const contentData = await fetchContentData();
   const regionsData = await fetchRegionsData();
   
+  // FAQ verilerini schema'ya geç - SSR uyumlu
+  const schema = await generateHomePageSchema(routeInfo, contentData.faq);
+  
   return (
     <div className="min-h-screen bg-surface">
-      {/* Schema.org Markup */}
+      {/* Schema.org Markup - Dinamik FAQ verilerini içerir */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
